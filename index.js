@@ -1,6 +1,6 @@
 window.addEventListener("load", function (e) {
     // get values
-    var loadingIcon = document.querySelector("box-icon");
+    var loadingIcon = document.querySelector("#loader");
     var form = document.querySelector("form");
 
     form.addEventListener("submit", sendMessage);
@@ -57,6 +57,13 @@ window.addEventListener("load", function (e) {
             data.append("email", email);
             data.append("subject", subject);
             data.append("message", message);
+
+            const target = document.querySelector("#target");
+            const url = "https://mw159.brighton.domains/ci527/contact.php";
+
+        
+            console.log(fetch(url));
+                
 
             // simulate delay when submitting the data to the server
             setTimeout(async function () {

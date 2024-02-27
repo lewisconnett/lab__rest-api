@@ -8,6 +8,9 @@
         <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet" />
     </head>
     <body>
         <main>
@@ -43,18 +46,19 @@
                 </fieldset>
             </form>
             <div class="loading">
-                <box-icon name="loader-alt" animation="spin"></box-icon>
+                <i id="loader" class="bx bx-loader-alt bx-spin"></i>
             </div>
             <div id="success">
                 <h2>Thank you!</h2>
                 <p><a id="reset-success" href="#">Send another Message</a></p>
+                <p id="target"></p>
             </div>
             <div id="error">
                 <h2>Oops - something went wrong</h2>
                 <p><a id="reset-error" href="#">Try again</a></p>
+                <p id="target"></p>
             </div>
         </main>
     </body>
     <script src="index.js"></script>
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </html>

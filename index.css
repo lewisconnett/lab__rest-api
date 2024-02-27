@@ -71,6 +71,6 @@ body {
     color: #ff0000;
 }
 
-box-icon {
+#loader {
     display: none;
 }
