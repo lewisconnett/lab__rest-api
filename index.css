@@ -1,0 +1,76 @@
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #ccc;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 0.75rem;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 0.5rem;
+}
+
+#google-div {
+    display: flex;
+    align-items: center;
+}
+
+#google {
+    margin: auto;
+}
+
+#submit-btn {
+    width: 80%;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: .75rem;
+    border: 1px solid;
+}
+
+#welcome-message {
+    margin-bottom: 0.75rem;
+}
+
+.hint {
+    display: none;
+    color: red;
+}
+
+.loading {
+    display: flex;
+    width: fit-content;
+    margin: 1rem auto;
+    align-items: center;
+}
+
+#success {
+    display: none;
+    text-align: center;
+    padding-top: 10em;
+}
+
+#error {
+    display: none;
+    text-align: center;
+    padding-top: 10em;
+}
+
+#error h2 {
+    color: #ff0000;
+}
+
+box-icon {
+    display: none;
+}
